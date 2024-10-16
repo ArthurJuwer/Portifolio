@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Arthur Juwer</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li>Sobre mim</li>
-                <li>Ver Skills</li>
-                <li>Projetos</li>
-                <li>Participações em Feiras</li>
-                <li>Contato</li>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Ver Skills</a></li>                
+                <li><a href="#feiras">Participações em Feiras</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -22,7 +22,7 @@
 
         <section class="background" id="background">
 
-            <div class="background-container">
+            <div class="background-container container-padrao">
 
                 <div class="background-container-titles">
                     <h1>Arthur Juwer</h1>
@@ -39,10 +39,170 @@
         </section>
 
         <section class="sobremim" id="sobremim">
-            
+            <div class="container-sobremim container-padrao">
+                <div class="box-imagem">
+                    <img src="arthur-juwer.jpg" alt="Foto de Arthur Juwer">
+                </div>
+        
+                <div class="box-text">
+                    <div class="box-text-title">
+                        <h1>Quem é o Arthur Juwer?</h1>
+                    </div>
+                    <div class="box-text-content">
+                        <p>Sou um estudante de Tecnologia da Informação no Senac, apaixonado por desenvolvimento de software e novas tecnologias. Sempre em busca de aprimorar minhas habilidades e aprender mais sobre desenvolvimento front-end, back-end e inovação tecnológica.</p>
+                        <p>Com projetos focados em aplicações web, sempre tento integrar as melhores práticas de design e desenvolvimento, buscando entregar soluções que combinam funcionalidade e estética.</p>
+                    </div>
+                </div>
+            </div>
         </section>
+        
+
+        <section class="projetos" id="projetos">
+            <div class="container-projetos container-padrao">
+                <div class="projetos-title">
+                    <h1>MEUS <span class="colorRed">PROJETOS.</span></h1>
+                    <p>Alguns dos projetos mais populares que desenvolvi.</p>
+                </div>
+                <div class="projetos-container">
+                    <div class="projetos-box-item">
+                        <div class="projeto-img">
+                            <img src="projeto1.jpg" alt="Imagem do Projeto 1">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Projeto 1</h3>
+                            <p>Descrição curta sobre o Projeto 1. Explora HTML, CSS e JS.</p>
+                            <a href="#" class="btn-projeto">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="projetos-box-item">
+                        <div class="projeto-img">
+                            <img src="projeto2.jpg" alt="Imagem do Projeto 2">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Projeto 2</h3>
+                            <p>Projeto focado em React e Node.js, com funcionalidades avançadas.</p>
+                            <a href="#" class="btn-projeto">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="projetos-box-item">
+                        <div class="projeto-img">
+                            <img src="projeto3.jpg" alt="Imagem do Projeto 3">
+                        </div>
+                        <div class="projeto-info">
+                            <h3>Projeto 3</h3>
+                            <p>Aplicação web interativa construída com JavaScript e APIs.</p>
+                            <a href="#" class="btn-projeto">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            
+            
+
+        </section>
+        <section class="skills" id="skills">
+            <div class="container-skills container-padrao">
+                <div class="title-skills">
+                    <h1>Minhas <span class="colorRed">Skills</span></h1>
+                    <p>Linguagens e ferramentas que utilizo com mais frequência nos projetos.</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <img src="./imagens/iconHTML.png" alt="HTML Icon">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <img src="./imagens/iconCSS.png" alt="CSS Icon">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <img src="./imagens/iconJS.png" alt="JavaScript Icon">
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="feiras" id="feiras">
+            <div class="container-feiras container-padrao">
+                <div class="feiras-title">
+                    <h1>Participações em <span class="colorRed">Feiras</span></h1>
+                    <p>Eventos e feiras onde participei com projetos e apresentações.</p>
+                </div>
+                <div class="feiras-container">
+                    <div class="feira-box-item">
+                        <img src="feira-tecnologia-2023.jpg" alt="Feira de Tecnologia 2023">
+                        <h3>Feira de Tecnologia 2023</h3>
+                        <p>Apresentei um projeto de automação residencial utilizando IoT, com reconhecimento por inovações no setor.</p>
+                    </div>
+                    <div class="feira-box-item">
+                        <img src="campus-party-2022.jpg" alt="Campus Party 2022">
+                        <h3>Campus Party 2022</h3>
+                        <p>Participei como palestrante, discutindo o impacto das tecnologias emergentes no dia a dia das pessoas.</p>
+                    </div>
+                    <div class="feira-box-item">
+                        <img src="expotech-2021.jpg" alt="ExpoTech 2021">
+                        <h3>ExpoTech 2021</h3>
+                        <p>Exibi um projeto de aplicação web focada em acessibilidade digital, recebendo destaque pela usabilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="container-contato container-padrao">
+                <div class="contato-title">
+                    <h1>Entre em <span class="colorRed">Contato</span></h1>
+                    <p>Fique à vontade para entrar em contato comigo através do formulário abaixo.</p>
+                </div>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua mensagem" rows="6" required></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+        
 
     </main>
+    <footer class="footer">
+        <div class="container-footer container-padrao">
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/arthurjuwer/"><img src="./imagens/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/ArthurJuwer/"><img src="./imagens/github.png" alt="GitHub"></a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2024 Arthur Juwer. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+        
+    
+        
 
 </body>
 </html>
