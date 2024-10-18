@@ -321,10 +321,10 @@ section#feiras {
     transform: translateY(-10px);
 }
 
-/* Estilo para as imagens */
+
 .feira-box-item img {
     width: 100%;
-    height: 10rem;
+    height: 14rem;
     object-fit: cover;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
@@ -387,6 +387,7 @@ section.contato {
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    font-size: 0.925rem;
     transition: background-color 0.3s ease;
 }
 
@@ -394,7 +395,6 @@ section.contato {
     background-color: #d33;
 }
 
-/* Footer */
 footer.footer {
     background-color: #1c1c1c;
     color: #f9f9f9;
