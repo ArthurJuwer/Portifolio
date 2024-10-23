@@ -67,6 +67,8 @@ section#background{
                 width: 16rem;
                 height: 3rem;
                 border-radius: 0.5rem;
+                cursor: pointer;
+                border: 1px solid white;
             }
             
         }
@@ -282,6 +284,7 @@ section.sobremim {
 
     .progress-bar {
         height: 100%;
+        width: 100%;
         background-color: #f44;
         transition: width 0.5s ease;
     }
