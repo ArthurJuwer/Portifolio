@@ -164,6 +164,10 @@ section.sobremim {
         width: 100%;
     }
 
+    a.projetos-link{
+        color: #f9f9f9;
+        text-decoration: none;
+    }
     .projetos-box-item {
         background-color: #333;
         border-radius: 1rem;
@@ -184,13 +188,20 @@ section.sobremim {
     }
 
     .projeto-info {
+        display: flex;
+        flex-direction: column;
         padding: 1.5rem;
         text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        
+        p{
+            margin: 1.5rem 0rem;
+        }
     }
-
-    .projeto-info h3 {
-        font-size: 1.
-    }
+    
+    
     section.skills {
         background-color: #2b2b2b;
         color: #f9f9f9;
