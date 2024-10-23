@@ -259,11 +259,19 @@ section.sobremim {
         width: 4rem;
         height: 4rem;
     }
+    .php{
+        width: 6rem !important;
+    }
 
     .skill-info h3 {
         font-size: 1.5rem;
     }
-
+    .skill-text-progress{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
     .skill-progress {
         width: 100%;
         background-color: #555;
